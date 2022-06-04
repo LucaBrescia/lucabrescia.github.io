@@ -964,4 +964,85 @@ section{
     }
 
     
+    .section{
+       position: relative;
+    }
+    .about{
+        padding: 3rem 8rem;
+        margin-bottom: 15vh;
+    }
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        
+        .about-container-img-left{
+            grid-column: 1;
+            padding: 3rem;
+            font-size: 3rem;
+        }
+        .about-container-img-right{
+            grid-column: 1;
+            padding: 3rem;
+            font-size: 3rem;
+    
+        }
+    
+        .about-container-text-left{
+            grid-column: 2;
+            p{
+                margin: 2vh 0;
+                position: center;
+                text-align: justify;
+                font-size: 1.1rem;
+                padding-left: 3rem;
+                padding-right:3rem;
+                line-height: 150%;
+            }
+            span{
+                color: var(--color-secondary);
+                font-weight: bold;
+            }
+        }
+        .about-container-text-right{
+            grid-column: 2;
+            background-color: var(--color-primary);
+    
+            p{
+                margin: 2vh 0;
+                position: center;
+                text-align: justify;
+                word-spacing: 5%;
+                line-height: 150%;
+                font-size: 1.1rem;
+                padding-left: 3rem;
+                padding-right:3rem;
+            }
+            span{
+                color: var(--color-secondary);
+                font-weight: bold;
+            }
+        }
+    }
+    .contact{
+        margin-bottom: 10vh;
+        .contact-content{
+            p{
+                font-size: 1.1rem;
+            }
+        }
+        .contact-container{
+            .contact-info{
+                font-size: 1.1rem;
+            }
+            .form-input-box{
+                width: 100%;
+            }
+        }
+    }
+
+    .projects-abstract{
+        p{
+            font-size: 1.1rem;
+        }
+    }
 }
