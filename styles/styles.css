@@ -1083,7 +1083,7 @@ section {
   }
 }
 
-@media only screen and (max-device-width: 599px) {
+@media only screen and (max-device-width: 767px) {
   .body {
     overflow-x: hidden;
     overflow-y: auto;
