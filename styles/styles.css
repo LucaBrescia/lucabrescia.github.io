@@ -950,7 +950,8 @@ section {
     min-width: 335px;
   }
   .section {
-    padding: 3rem 20%;
+    padding: 13vh;
+    text-align: center;
   }
   .header-content {
     display: -webkit-box;
@@ -1203,20 +1204,11 @@ section {
     height: 58vh;
   }
   .section {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 13vh;
+    text-align: center;
     width: 100%;
-    position: relative;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
   }
   .about {
-    padding: 3rem 8rem;
     margin-bottom: 15vh;
   }
   .about-container {
