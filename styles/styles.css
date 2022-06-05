@@ -1086,7 +1086,7 @@ section {
   }
 }
 
-@media only screen and (max-device-width: 767px) {
+@media only screen and (max-device-width: 500px) {
   .body {
     overflow-x: hidden;
     overflow-y: auto;
@@ -1151,8 +1151,8 @@ section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 60vw;
-    height: 60vh;
+    width: 50vw;
+    height: 50vh;
     position: relative;
     top: 0;
     left: 0;
@@ -1181,7 +1181,7 @@ section {
   }
   .header-content .right-header p {
     font-size: 1rem;
-    line-height: 1rem;
+    line-height: 1.3rem;
   }
   .header-content .main-btn {
     margin-top: 15%;
@@ -1200,16 +1200,18 @@ section {
     position: relative;
   }
   .card {
-    width: 100vh;
-    height: 58vh;
+    width: 30vh;
+    height: 40vh;
   }
   .section {
-    padding: 13vh;
+    padding: 4vh;
+    overflow: hidden;
     text-align: center;
     width: 100%;
   }
   .about {
     margin-bottom: 15vh;
+    padding: 5vh 8vh;
   }
   .about-container {
     display: -webkit-box;
@@ -1268,17 +1270,22 @@ section {
     color: var(--color-secondary);
     font-weight: bold;
   }
-  .contact {
+  .contacts {
     margin-bottom: 10vh;
+    padding: 5vh 8vh;
   }
   .contact .contact-content p {
     font-size: 1.1rem;
   }
   .contact .contact-container .contact-info {
     font-size: 1.1rem;
+    text-align: left;
   }
   .contact .contact-container .form-input-box {
     width: 100%;
+  }
+  .projects-container {
+    padding: 5vh 8vh;
   }
   .projects-abstract p {
     font-size: 1.1rem;
