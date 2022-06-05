@@ -1207,6 +1207,13 @@ section {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    position: relative;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   .about {
     padding: 3rem 8rem;

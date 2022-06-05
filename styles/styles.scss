@@ -974,6 +974,9 @@ section{
        margin-left: auto;
        margin-right: auto;
        width: 100%;
+       position: relative;
+        align-items: center;
+        align-self: center;
     }
     .about{
         padding: 3rem 8rem;
