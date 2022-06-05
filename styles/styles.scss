@@ -627,6 +627,7 @@ section{
             padding-left: 1rem;
             color: var(--color-primary);
             border-radius: 16px 0 0 16px;
+            text-align: left;
         }
 
         .contact-box{
@@ -984,7 +985,7 @@ section{
     .about-container{
         display: flex;
         flex-direction: column;
-        
+        min-width: fit-content;
         .about-container-img-left{
             grid-column: 1;
             padding: 2rem;
@@ -1036,9 +1037,12 @@ section{
     .contacts{
         margin-bottom: 10vh;
         padding: 5vh 5vh;
+        .main-title{
+            min-width: fit-content;
+        }
     }
     .contact{
-        
+        min-width: fit-content;
         .contact-content{
             p{
                 font-size: 1.1rem;
@@ -1057,6 +1061,7 @@ section{
 
     .projects-container{
         padding: 5vh 5vh;
+        min-width: fit-content;
     }
     .projects-abstract{
         p{

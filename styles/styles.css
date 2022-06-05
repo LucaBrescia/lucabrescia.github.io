@@ -800,6 +800,7 @@ section {
   padding-left: 1rem;
   color: var(--color-primary);
   border-radius: 16px 0 0 16px;
+  text-align: left;
 }
 
 .contact .contact-container .contact-box {
@@ -1221,6 +1222,9 @@ section {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
   }
   .about-container .about-container-img-left {
     -ms-grid-column: 1;
@@ -1274,6 +1278,16 @@ section {
     margin-bottom: 10vh;
     padding: 5vh 5vh;
   }
+  .contacts .main-title {
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+  }
+  .contact {
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+  }
   .contact .contact-content p {
     font-size: 1.1rem;
   }
@@ -1286,6 +1300,9 @@ section {
   }
   .projects-container {
     padding: 5vh 5vh;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
   }
   .projects-abstract p {
     font-size: 1.1rem;
