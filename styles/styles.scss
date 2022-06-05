@@ -886,7 +886,10 @@ section{
     .body::-webkit-scrollbar {
         display: contents;
     }
-
+    .main-title{
+        font-size: 2rem;
+        min-width: fit-content;
+    }
     .controls{
         top:auto;
         bottom: 0;
@@ -946,7 +949,7 @@ section{
             }
             p{
                 font-size: 1rem;
-                line-height: 1.3rem;
+                line-height: 1.4rem;
             }
         }
         .main-btn{
@@ -1057,15 +1060,24 @@ section{
                 width: 100%;
             }
         }
+        .contact-box-text{
+            h2{
+                font-size: 1.1rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
     }
 
     .projects-container{
         padding: 5vh 5vh;
         min-width: fit-content;
-    }
-    .projects-abstract{
-        p{
-            font-size: 1.1rem;
+        .projects-abstract{
+            p{
+                font-size: 1.1rem;
+            }
         }
     }
+    
 }

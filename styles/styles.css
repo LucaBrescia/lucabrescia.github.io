@@ -1095,6 +1095,12 @@ section {
   .body::-webkit-scrollbar {
     display: contents;
   }
+  .main-title {
+    font-size: 2rem;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+  }
   .controls {
     top: auto;
     bottom: 0;
@@ -1182,7 +1188,7 @@ section {
   }
   .header-content .right-header p {
     font-size: 1rem;
-    line-height: 1.3rem;
+    line-height: 1.4rem;
   }
   .header-content .main-btn {
     margin-top: 15%;
@@ -1298,13 +1304,19 @@ section {
   .contact .contact-container .form-input-box {
     width: 100%;
   }
+  .contact .contact-box-text h2 {
+    font-size: 1.1rem;
+  }
+  .contact .contact-box-text p {
+    font-size: 1rem;
+  }
   .projects-container {
     padding: 5vh 5vh;
     min-width: -webkit-fit-content;
     min-width: -moz-fit-content;
     min-width: fit-content;
   }
-  .projects-abstract p {
+  .projects-container .projects-abstract p {
     font-size: 1.1rem;
   }
 }
