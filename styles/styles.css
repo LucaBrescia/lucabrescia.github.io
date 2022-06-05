@@ -524,6 +524,8 @@ section {
   grid-column: 1;
   padding: 3rem;
   font-size: 3rem;
+  text-align: center;
+  min-width: 156px;
 }
 
 .about-container .about-container-img-right {
@@ -1204,6 +1206,7 @@ section {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
   }
   .about {
     padding: 3rem 8rem;
