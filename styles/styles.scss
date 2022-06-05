@@ -876,7 +876,7 @@ section{
     }
 }
 
-@media only screen and (max-device-width: 500px){
+@media only screen and (max-device-width: 787px){
     .body{
         overflow-x: hidden;
         overflow-y: auto;
@@ -979,7 +979,7 @@ section{
     }
     .about{
         margin-bottom: 15vh;
-        padding: 5vh 8vh;
+        padding: 5vh 5vh;
     }
     .about-container{
         display: flex;
@@ -987,7 +987,7 @@ section{
         
         .about-container-img-left{
             grid-column: 1;
-            padding: 3rem;
+            padding: 2rem;
             font-size: 3rem;
         }
         .about-container-img-right{
@@ -1035,7 +1035,7 @@ section{
     }
     .contacts{
         margin-bottom: 10vh;
-        padding: 5vh 8vh;
+        padding: 5vh 5vh;
     }
     .contact{
         
@@ -1056,7 +1056,7 @@ section{
     }
 
     .projects-container{
-        padding: 5vh 8vh;
+        padding: 5vh 5vh;
     }
     .projects-abstract{
         p{
