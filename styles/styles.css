@@ -368,7 +368,6 @@ section {
   background-color: var(--color-grey-4);
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  scale: 0.1;
 }
 
 .card:hover img {
