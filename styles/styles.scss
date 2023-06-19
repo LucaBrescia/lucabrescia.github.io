@@ -89,7 +89,8 @@ section{
 
 .active:not(.controls .control){
     display: block;
-    animation: scaleAnim .8s ease-out;
+    // Removed the transition between pages
+    /*animation: scaleAnim .8s ease-out;
     @keyframes scaleAnim {
         0%{
             transform: translateY(100%) scale(1);
@@ -99,7 +100,7 @@ section{
             transform: translateY(0) scale(1);
         }        
         
-    }
+    }*/
 }
 
 //Controls
@@ -459,11 +460,6 @@ section{
 
 
 }
-
-
-
-
-
 
 
 // projects

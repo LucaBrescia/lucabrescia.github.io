@@ -81,15 +81,17 @@ section {
 
 .active:not(.controls .control) {
   display: block;
-  animation: scaleAnim 0.8s ease-out;
-}
-@keyframes scaleAnim {
-  0% {
-    transform: translateY(100%) scale(1);
-  }
-  100% {
-    transform: translateY(0) scale(1);
-  }
+  /*animation: scaleAnim .8s ease-out;
+  @keyframes scaleAnim {
+      0%{
+          transform: translateY(100%) scale(1);
+      }
+
+      100%{
+          transform: translateY(0) scale(1);
+      }        
+
+  }*/
 }
 
 .controls {
