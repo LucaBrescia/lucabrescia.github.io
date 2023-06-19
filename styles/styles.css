@@ -28,8 +28,7 @@ body {
   overflow-x: hidden;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-  color: var(--color-white);
-  transition: all 0.4s ease-in-out;
+  color: var(--color-primary);
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -82,16 +81,7 @@ section {
 
 .active:not(.controls .control) {
   display: block;
-  -webkit-animation: scaleAnim 0.8s ease-out;
-          animation: scaleAnim 0.8s ease-out;
-}
-@-webkit-keyframes scaleAnim {
-  0% {
-    transform: translateY(100%) scale(1);
-  }
-  100% {
-    transform: translateY(0) scale(1);
-  }
+  animation: scaleAnim 0.8s ease-out;
 }
 @keyframes scaleAnim {
   0% {
@@ -830,7 +820,6 @@ section {
   }
   .main-title {
     font-size: 2rem;
-    min-width: -webkit-fit-content;
     min-width: -moz-fit-content;
     min-width: fit-content;
   }
@@ -975,12 +964,10 @@ section {
     padding: 5vh 5vh;
   }
   .contacts .main-title {
-    min-width: -webkit-fit-content;
     min-width: -moz-fit-content;
     min-width: fit-content;
   }
   .contact {
-    min-width: -webkit-fit-content;
     min-width: -moz-fit-content;
     min-width: fit-content;
   }
@@ -1002,7 +989,6 @@ section {
   }
   .projects-container {
     padding: 5vh 5vh;
-    min-width: -webkit-fit-content;
     min-width: -moz-fit-content;
     min-width: fit-content;
   }
