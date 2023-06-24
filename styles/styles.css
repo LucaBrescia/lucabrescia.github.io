@@ -441,10 +441,6 @@ section {
   font-weight: bold;
 }
 
-.box {
-  background-color: var(--color-grey-4);
-}
-
 .projects-container {
   display: grid;
   grid-template-rows: auto;
